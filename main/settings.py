@@ -102,29 +102,8 @@ DATABASES = {
     }
 }
 
-# DATABASES['default'] = dj_database_url.parse('postgres://dispatch_app_v1_5ecv_user:0hYb2c5IAbCG8g9De5GFMJ4zZSLq1D26@dpg-cm6mgc8cmk4c738php8g-a.oregon-postgres.render.com/dispatch_app_v1_5ecv')
+DATABASES['default'] = dj_database_url.parse('postgres://aceplora_it:DZTxpzBpMgzsvQGd5txcxFaRU6USTrFA@dpg-cmt2dien7f5s73ajhes0-a.oregon-postgres.render.com/aceplora_it')
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.mysql',
-#         'NAME': 'test',
-#         'USER': 'root',
-#         'PASSWORD': 'admin',
-#         'HOST':'localhost',
-#         'PORT':'3306',
-#     }
-# }
-
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'dispatch_app_v1',  # Replace with your PostgreSQL database name
-#         'USER': 'dispatch_app_v1_user',  # Replace with your PostgreSQL username
-#         'PASSWORD': 'oPfPRsy8WtPYEfFSTjMTAF3f1ZImM93M',  # Replace with your PostgreSQL password
-#         'HOST': 'dpg-clpppo3d3o9c73ev5mp0-a.oregon-postgres.render.com',  # Use the provided PostgreSQL host from Render
-#         'PORT': '5432',  # Use the provided PostgreSQL port from Render
-#     }
-# }
 
 
 
